@@ -64,7 +64,5 @@ public class ArrayStack<T> implements Stack<T> {
   private void growArray() {
     size *= 2;
     arr = Arrays.copyOf(arr, size);
-    
-    System.out.println(Arrays.toString(arr));
   }
 }
